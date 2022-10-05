@@ -1,0 +1,265 @@
+<!doctype html>
+<html class="wide wow-animation" lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="BodyArt">
+    <meta name="description" content="Agende um horário presencial conosco para fazermos um orçamento de tatuagem, tirar dúvidas ou conhecer o nosso estúdio diretamente em nosso próprio endereço.">
+    <title>Agendar horário | BodyArt</title>
+    <link rel="icon" href="img/logo/body-art-fav.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,300italic,400,700%7CArvo:400,700">
+    <link rel="stylesheet" href="css/style.css">
+		<style>
+      .box-icon-image {
+        width: fit-content;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: auto;
+        border-radius: 50%;
+      }
+
+      * + .box-icon-header {
+        margin-top: 25px;
+      }
+
+      .panel-body {
+        color: #242423;
+      }
+
+      .bg-periglacial-blue {
+        padding-top: 250px;
+      }
+
+      @media screen and (max-width: 991px) {
+        .bg-periglacial-blue {
+          padding-top: 50px;
+        }
+      }
+
+      .link-return-wrap {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+
+      .select2-container--bootstrap .select2-selection--single, .stepper input[type="number"] {
+        border: 1px solid #d0dbd7;
+        border-radius: 3px;
+      }
+
+      .form-control {
+        margin-top: 0;
+        background: #fff !important;
+        padding-top: 11px;
+      }
+
+      .btn-primary {
+        width: fit-content !important;
+        max-width: fit-content !important;
+      }
+
+      .form-text-error {
+        color: #ff0000;
+        margin-bottom: 15px;
+        display: none;
+      }
+    </style>
+    <!--[if lt IE 10]>
+      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/" target="_blank">Você está usando um navegador desatualizado. Para uma experiência de navegação mais rápida e segura, atualize gratuitamente hoje mesmo.</a></div>
+      <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header">
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-stick-up-clone="true" data-md-stick-up-offset="140px" data-lg-stick-up-offset="140px">
+            <div class="rd-navbar-inner">
+              <div class="rd-navbar-panel">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <div class="rd-navbar-brand">
+                  <a class="brand-name" href="index.html">
+                    <div class="brand-mobile">
+                      <img src="img/logo/body-art-mobile.webp" alt="Logo bodyArt" width="200" height="36"/>
+                    </div>
+                    <div class="brand-desktop">
+                      <img src="img/logo/body-art-desktop.webp" alt="Logo bodyArt" width="140" height="140"/>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-inner">
+                  <ul class="rd-navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a>
+                    </li>
+                    <li><a href="tatuagens.html">Tatuagens</a>
+                    </li>
+                    <li><a href="orcamento.html">Orçamento</a>
+                    </li>
+                    <li><a href="galeria.html">Galeria</a>
+                    </li>
+                    <li><a href="contato.html">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section-xs bg-periglacial-blue one-screen-page-content text-center">
+        <div class="shell">
+          <div class="link-return-wrap">
+            <a class="link link-primary link-return" href="javascript:history.back()">Voltar</a>
+          </div>
+          <h2>Agendar horário</h2>
+          <div class="p text-width-medium">
+            <p class="big">
+              Para concluir a sua reserva de horário presencial, por favor deixe o seu nome, data e a hora que melhor lhe convier para confirmarmos a
+              disponibilidade do dia selecionado, caso queira você pode realizar um <a href="orcamento.html">Orçamento Online</a>.
+            </p>
+          </div>
+          <div class="box-contacts box-contacts-vertical box-contacts-vertical-small box-wrap-content-interactive block-centered">
+            <div class="box-contacts-col">
+              <div class="box-contacts-block">
+                <h3>Nome:</h3>
+                <input id="input-name" class="form-control form-control-has-validation form-control-last-child" id="contact-full-name" type="text" name="name"><span class="form-validation"></span>
+              </div>
+              <div class="box-contacts-block">
+                <h3>Data:</h3>
+                <input id="input-date" class="form-control" type="date">
+              </div>
+              <div class="box-contacts-block">
+                <h3>Hora:</h3>
+                <input id="input-time" class="form-control" type="time">
+              </div>
+            </div>
+            <div class="box-contacts-col box-contacts-right">
+              <div class="box-contacts-block">
+                <p class="form-text-error"></p>
+                <form action="finish.html">
+                  <button id="btn-scheduling" class="btn btn-sm btn-primary btn-block btn-circle" type="button">Agendar Agora</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="page-footer page-footer-variant-3">
+        <div class="shell">
+          <div class="range range-50" style="justify-content: center;">
+            <div class="cell-sm-6 cell-md-3">
+              <h3>Website</h3>
+              <div class="divider divider-conch"></div>
+              <ul class="footer-navigation row footer-navigation-vertical" style="max-width: 390px;">
+                <li class="col-xs-6"><a href="privacidade.html">Privacidade</a></li>
+                <li class="col-xs-6"><a href="termos-e-uso.html">Termos e Uso</a></li>
+                <li class="col-xs-6"><a href="cookies.html">Cookies</a></li>
+                <li class="col-xs-6"><a href="faq.html">Faq</a></li>
+              </ul>
+            </div>
+            <div class="cell-sm-6 cell-md-5">
+              <a href="index.html" style="margin: auto;display: block;width: fit-content;">
+                <img src="img/logo/body-art-desktop.webp" width="140" alt="Logo bodyArt">
+              </a>
+              <div class="text-highlighted-wrap" style="text-align: center;">
+                <p class="text-highlighted">© BodyArt 2011 - <span class="current-year-of-operation"></span>.<br>Todos os direitos reservados.</p>
+              </div>
+            </div>
+            <div class="cell-sm-6 cell-md-3">
+              <h3>Siga-nos</h3>
+              <div class="divider divider-conch"></div>
+              <ul class="inline-list inline-list-xs">
+                <li title="Facebook"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-facebook" href="https://www.facebook.com/user001facebook" target="_blank"></a></li>
+                <li title="Twitter"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-twitter" href="https://twitter.com/user001twitter" target="_blank"></a></li>
+                <li title="Youtube"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-youtube" href="https://www.youtube.com/channel/user001youtube" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      window.onload = () => {
+        let formTel = "5511974124739";
+
+        let inputName = document.querySelector("#input-name");
+        let inputDate = document.querySelector("#input-date");
+        let inputTime = document.querySelector("#input-time");
+        
+        let formTextError = document.querySelectorAll(".form-text-error");
+        let btnScheduling = document.querySelector("#btn-scheduling");
+
+        btnScheduling.onclick = () => {
+          if  (inputName.value != "" && inputDate.value != "" && inputTime.value != "") {
+            let formDate = new Date();
+            let formDay = formDate.getDate();
+            let formMonth = formDate.getMonth();
+            let formYear = formDate.getFullYear();
+            let formHours = formDate.getHours();
+            let formMinutes = formDate.getMinutes();
+
+            formMonth = formMonth + 1;
+
+            if (formDay <= 9) {
+              formDay = "0" + formDay;
+            }
+
+            if (formMonth <= 9) {
+              formMonth = "0" + formMonth;
+            }
+
+            if (formHours <= 9) {
+              formHours = "0" + formHours;
+            }
+
+            if (formMinutes <= 9) {
+              formMinutes = "0" + formMinutes;
+            }
+
+            let inputDateYearConvert = inputDate.value.slice(0, inputDate.value.indexOf("-"));
+            let inputDateMonthConvert = inputDate.value.slice(inputDate.value.indexOf("-", 5) + 1, inputDate.value.length);
+            let inputDateDayConvert = inputDate.value.slice(inputDate.value.indexOf("-") + 1, inputDate.value.indexOf("-", 5));
+
+            const  generateRandomString = (num) => {
+              const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+              let result1= ' ';
+              const charactersLength = characters.length;
+
+              for ( let i = 0; i < num; i++ ) {
+                result1 += characters.charAt(Math.floor(Math.random() * charactersLength));
+              }
+
+              return result1;
+            }
+
+            const displayRandomString = () => {
+              let randomStringContainer = document.getElementById('random_string');
+              randomStringContainer.innerHTML =  generateRandomString(8);
+            }
+
+            let formText = `*AGENDAMENTO DE HORÁRIO*\n___________________________________\n\n\`\`\`Dados da solicitação\`\`\`\n...........................................................\n*Site:* www.bodyart.com.br\n*Data:* ${formDay}/${formMonth}/${formYear}\n*Horário:* ${formHours}:${formMinutes}\n*ID:* ${generateRandomString(10)}\n___________________________________\n\n\`\`\`Dados do agendamento\`\`\`\n...........................................................\n*Nome do cliente:* ${inputName.value}\n*Data para agendar:* ${inputDateMonthConvert}/${inputDateDayConvert}/${inputDateYearConvert}\n*Horário para agendar:* ${inputTime.value}`;
+
+            formText = window.encodeURIComponent(formText);
+
+            window.open("https://wa.me/" + formTel + "?text=" + formText, "_blank");
+
+            formTextError[0].style.display = "block";
+            formTextError[0].style.color = "#008000";
+            formTextError[0].innerHTML = "Redirecionado para o seu WhatsApp.";
+          }
+
+          else {
+            formTextError[0].style.display = "block";
+            formTextError[0].innerHTML = "<b>AVISO:</b> você precisa preencher todos os campos para enviar.";
+          }
+        };
+      };
+    </script>
+  </body>
+</html>

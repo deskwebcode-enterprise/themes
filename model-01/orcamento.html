@@ -1,0 +1,513 @@
+<!doctype html>
+<html class="wide wow-animation" lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="BodyArt">
+    <meta name="description" content="Faça um orçamento conosco para saber o preço da sua tatuagem e além disso, tirar todas as suas dúvidas com a nossa equipe de profissionais.">
+    <title>Orçamento | BodyArt</title>
+    <link rel="icon" href="img/logo/body-art-fav.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto+Mono:300,300italic,400,700%7CArvo:400,700">
+    <link rel="stylesheet" href="css/style.css">
+		<style>
+      .box-icon-image {
+        width: fit-content;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: auto;
+        border-radius: 50%;
+      }
+
+      * + .box-icon-header {
+        margin-top: 25px;
+      }
+
+      .panel-body {
+        color: #242423;
+      }
+
+      .bg-periglacial-blue {
+        padding-top: 250px;
+      }
+
+      @media screen and (max-width: 991px) {
+        .bg-periglacial-blue {
+          padding-top: 50px;
+        }
+      }
+
+      .cs {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+      }
+
+      .cs .form-group {
+        width: 30%;
+        margin-top: 0;
+        margin: 10px;
+      }
+
+      @media screen and (max-width: 991px) {
+        .cs .form-group {
+          margin: 10px 20px;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .cs .form-group {
+          width: 100%;
+        }
+      }
+
+      .box-contacts-right {
+        border-top: 1px solid #d0dbd7;
+      }
+
+      textarea {
+        height: 400px !important;
+      }
+
+      .form-checkbox-term {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 30px;
+      }
+
+      .form-checkbox-term p {
+        margin-left: 10px;
+      }
+
+      .form-checkbox-term input {
+        width: 25px;
+        height: 25px;
+        margin-top: 12px;
+      }
+
+      .form-group-last {
+        margin: 0 10px;
+        width: 64%;
+      }
+
+      .link-return-wrap {
+        text-align: left;
+        margin-bottom: 30px;
+      }
+
+      .select2-container--bootstrap .select2-selection--single, .stepper input[type="number"] {
+        border: 1px solid #d0dbd7;
+        border-radius: 3px;
+        background: #fff;
+      }
+
+      .stepper input[type="number"] {
+        color: #7e7e7e;
+        padding-top: 12px;
+      }
+
+      .box-contact-break {
+        display: flex;
+      }
+
+      .form-state, .form-city {
+        width: 50%;
+        margin: 10px 0;
+      }
+
+      .form-state {
+        margin-right: 15px;
+      }
+
+      .form-text-error {
+        color: #ff0000;
+        display: none;
+      }
+
+      @media screen and (max-width: 767px) {
+        .cs {
+          flex-wrap: wrap;
+        }
+
+        .cs .form-group {
+          width: calc(40% - 1px);
+        }
+
+        .cs .form-group .stepper {
+          max-width: 100%;
+          width: 100%;
+        }
+
+        .form-group-last {
+          width: 100%;
+          margin: 15px;
+          margin-top: 30px;
+          margin-bottom: 5px;
+        }
+      }
+
+      @media screen and (max-width: 494px) {
+        .cs .form-group {
+          width: 100%;
+        }
+
+        .box-contact-break {
+          flex-wrap: wrap;
+        }
+
+        .form-state, .form-city {
+          width: 100%;
+        }
+
+        .form-state {
+          margin-bottom: 0;
+          margin-right: 0;
+        }
+      }
+
+      .form-control {
+        background: #fff !important;
+        padding-top: 12px;
+      }
+    </style>
+    <!--[if lt IE 10]>
+      <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/" target="_blank">Você está usando um navegador desatualizado. Para uma experiência de navegação mais rápida e segura, atualize gratuitamente hoje mesmo.</a></div>
+      <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <div class="page">
+      <header class="page-header">
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fullwidth" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fullwidth" data-stick-up-clone="true" data-md-stick-up-offset="140px" data-lg-stick-up-offset="140px">
+            <div class="rd-navbar-inner">
+              <div class="rd-navbar-panel">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <div class="rd-navbar-brand">
+                  <a class="brand-name" href="index.html">
+                    <div class="brand-mobile">
+                      <img src="img/logo/body-art-mobile.webp" alt="Logo bodyArt" width="200" height="36"/>
+                    </div>
+                    <div class="brand-desktop">
+                      <img src="img/logo/body-art-desktop.webp" alt="Logo bodyArt" width="140" height="140"/>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-inner">
+                  <ul class="rd-navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a>
+                    </li>
+                    <li><a href="tatuagens.html">Tatuagens</a>
+                    </li>
+                    <li class="active"><a href="orcamento.html">Orçamento</a>
+                    </li>
+                    <li><a href="galeria.html">Galeria</a>
+                    </li>
+                    <li><a href="contato.html">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section-xs bg-periglacial-blue one-screen-page-content text-center">
+        <div class="shell">
+          <div class="link-return-wrap">
+            <a class="link link-primary link-return" href="javascript:history.back()">Voltar</a>
+          </div>
+          <h2>Orçamento</h2>
+          <div class="p text-width-medium">
+            <p class="big">
+              Os preços são relativos a cada tatuagem podendo variar com o tamanho, uso da cor, posicionamento no corpo e complexidade geral.
+            </p>
+          </div>
+          <div class="box-contacts box-contacts-vertical box-contacts-vertical-small box-wrap-content-interactive block-centered" style="max-width: 100%;">
+            <div class="box-contacts-col">
+              <div class="box-contacts-block">
+                <label class="form-label-outside" for="form-select-style">Estilo da tatuagem:</label>
+                <select id="form-select-style" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Selecione</option>
+                  <option value="Lettering">Lettering</option>
+                  <option value="Watercolor">Watercolor</option>
+                  <option value="Geometric">Geometric</option>
+                  <option value="Abstract">Abstract</option>
+                  <option value="Dotwork">Dotwork</option>
+                  <option value="Old school">Old school</option>
+                  <option value="Minimalist">Minimalist</option>
+                  <option value="Blackwork">Blackwork</option>
+                  <option value="Single line">Single line</option>
+                  <option value="Realista">Realista</option>
+                  <option value="Sem contorno">Sem contorno</option>
+                  <option value="Outro">Outro</option>
+                  <option value="Não sei">Não sei</option>
+                </select>
+              </div>
+              <div class="box-contacts-block">
+                <label class="form-label-outside" for="form-select-color">Cor da tatuagem:</label>
+                <select id="form-select-color" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Selecione</option>
+                  <option value="Preto e branco">Preto e branco</option>
+                  <option value="Colorido">Colorida</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+              <div class="box-contacts-block">
+                <label class="form-label-outside" for="form-select-body">Parte do corpo:</label>
+                <select id="form-select-body" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Selecione</option>
+                  <option value="Cabeça">Cabeça</option>
+                  <option value="Pescoço">Pescoço</option>
+                  <option value="Peito">Peito</option>
+                  <option value="Barriga">Barriga</option>
+                  <option value="Costela">Costela</option>
+                  <option value="Costa">Costa</option>
+                  <option value="Ombro">Ombro</option>
+                  <option value="Braço">Braço</option>
+                  <option value="Mãos">Mãos</option>
+                  <option value="Dedos">Dedos</option>
+                  <option value="Coxa">Coxa</option>
+                  <option value="Perna">Perna</option>
+                  <option value="Pé">Pé</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="cs" style="margin-bottom: 40px">
+              <div class="form-group">
+                <label class="form-label-outside" for="form-input-height">Altura da tatuagem (cm):</label>
+                <input class="form-control" id="form-input-height" type="number" name="name" placeholder="0" min="0" data-constraints="@Required">
+              </div>
+              <div class="form-group">
+                <label class="form-label-outside" for="form-input-width">Largura da tatuagem (cm):</label>
+                <input class="form-control" id="form-input-width" type="number" name="name" placeholder="0" min="0" data-constraints="@Required">
+              </div>
+              <div class="form-group-last">
+                <label class="form-label-outside" for="form-select-objective">Qual é objetivo da tatuagem:</label>
+                <select id="form-select-objective" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                  <option selected>Selecione</option>
+                  <option value="Nova tatuagem">Nova tatuagem</option>
+                  <option value="Reformar tatuagem">Reformar tatuagem</option>
+                  <option value="Remover tatuagem">Remover tatuagem</option>
+                  <option value="Cobrir tatuagem">Cobrir tatuagem</option>
+                  <option value="Cobrir cicatriz">Cobrir cicatriz</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="box-contacts-col box-contacts-right">
+              <div class="box-contacts-block">
+                <div class="box-contact-break">
+                  <div class="form-state">
+                    <label class="form-label-outside" for="form-select-state">Estado:</label>
+                    <select id="form-select-state" class="form-select form-select-sm" aria-label=".form-select-sm example">
+                      <option selected>Selecione</option>
+                      <option value="Acre (AC)">Acre (AC)</option>
+                      <option value="Alagoas (AL)">Alagoas (AL)</option>
+                      <option value="Amapá (AP)">Amapá (AP)</option>
+                      <option value="Amazonas (AM)">Amazonas (AM)</option>
+                      <option value="Bahia (BA)">Bahia (BA)</option>
+                      <option value="Ceará (CE)">Ceará (CE)</option>
+                      <option value="Espírito Santo (ES)">Espírito Santo (ES)</option>
+                      <option value="Goiás (GO)">Goiás (GO)</option>
+                      <option value="Maranhão (MA)">Maranhão (MA)</option>
+                      <option value="Mato Grosso (MT)">Mato Grosso (MT)</option>
+                      <option value="Mato Grosso do Sul (MS)">Mato Grosso do Sul (MS)</option>
+                      <option value="Minas Gerais (MG)">Minas Gerais (MG)</option>
+                      <option value="Pará (PA)">Pará (PA)</option>
+                      <option value="Paraíba (PB)">Paraíba (PB)</option>
+                      <option value="Paraná (PR)">Paraná (PR)</option>
+                      <option value="Pernambuco (PE)">Pernambuco (PE)</option>
+                      <option value="Piauí (PI)">Piauí (PI)</option>
+                      <option value="Rio de Janeiro (RJ)">Rio de Janeiro (RJ)</option>
+                      <option value="Rio Grande do Norte (RN)">Rio Grande do Norte (RN)</option>
+                      <option value="Rio Grande do Sul (RS)">Rio Grande do Sul (RS)</option>
+                      <option value="Rondônia (RO)">Rondônia (RO)</option>
+                      <option value="Roraima (RR)">Roraima (RR)</option>
+                      <option value="Santa Catarina (SC)">Santa Catarina (SC)</option>
+                      <option value="São Paulo (SP)">São Paulo (SP)</option>
+                      <option value="Sergipe (SE)">Sergipe (SE)</option>
+                      <option value="Tocantins (TO)">Tocantins (TO)</option>
+                      <option value="Distrito Federal (DF)">Distrito Federal (DF)</option>
+                    </select>
+                  </div>
+                  <div class="form-city">
+                    <label class="form-label-outside" for="form-input-city">Cidade:</label>
+                    <input class="form-control" id="form-input-city" type="text" name="name">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label-outside" for="form-input-name">Nome completo:</label>
+                  <input class="form-control" id="form-input-name" type="text" name="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label-outside" for="form-input-message">Mensagem:</label>
+                  <textarea class="form-control form-control-has-validation form-control-last-child" id="form-input-message" name="message" placeholder="Escreva quais são as suas ideias para a tatuagem (se possível o quanto mais detalhado melhor)."></textarea><span class="form-validation"></span>
+                </div>
+                <div class="form-checkbox-term">
+                  <input id="form-checkbox-term" type="checkbox">
+                  <p>Você confirma que não é menor de idade, mulher grávida (amamentando) ou sob influência de drogas / álcool?</p>
+                </div>
+                <p class="form-text-error"></p>
+                <button id="btn-send-data-wpp" class="btn btn-sm btn-primary btn-block btn-circle" type="submit">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="page-footer page-footer-variant-3">
+        <div class="shell">
+          <div class="range range-50" style="justify-content: center;">
+            <div class="cell-sm-6 cell-md-3">
+              <h3>Website</h3>
+              <div class="divider divider-conch"></div>
+              <ul class="footer-navigation row footer-navigation-vertical" style="max-width: 390px;">
+                <li class="col-xs-6"><a href="privacidade.html">Privacidade</a></li>
+                <li class="col-xs-6"><a href="termos-e-uso.html">Termos e Uso</a></li>
+                <li class="col-xs-6"><a href="cookies.html">Cookies</a></li>
+                <li class="col-xs-6"><a href="faq.html">Faq</a></li>
+              </ul>
+            </div>
+            <div class="cell-sm-6 cell-md-5">
+              <a href="index.html" style="margin: auto;display: block;width: fit-content;">
+                <img src="img/logo/body-art-desktop.webp" width="140" alt="Logo bodyArt">
+              </a>
+              <div class="text-highlighted-wrap" style="text-align: center;">
+                <p class="text-highlighted">© BodyArt 2011 - <span class="current-year-of-operation"></span>.<br>Todos os direitos reservados.</p>
+              </div>
+            </div>
+            <div class="cell-sm-6 cell-md-3">
+              <h3>Siga-nos</h3>
+              <div class="divider divider-conch"></div>
+              <ul class="inline-list inline-list-xs">
+                <li title="Facebook"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-facebook" href="https://www.facebook.com/user001facebook" target="_blank"></a></li>
+                <li title="Twitter"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-twitter" href="https://twitter.com/user001twitter" target="_blank"></a></li>
+                <li title="Youtube"><a class="icon icon-xs-outline icon-wild-sand-filled icon-circle fa-youtube" href="https://www.youtube.com/channel/user001youtube" target="_blank"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      window.onload = () => {
+        let formTel = "5511974124739";
+        let formSelectStyle = document.querySelector("#form-select-style");
+        let formSelectColor = document.querySelector("#form-select-color");
+        let formSelectBody = document.querySelector("#form-select-body");
+        let formSelectObjective = document.querySelector("#form-select-objective");
+        let formSelectState = document.querySelector("#form-select-state");
+
+        let formInputHeight = document.querySelector("#form-input-height");
+        let formInputWidth = document.querySelector("#form-input-width");
+        let formInputCity = document.querySelector("#form-input-city");
+        let formInputName = document.querySelector("#form-input-name");
+        let formInputMessage = document.querySelector("#form-input-message");
+
+        let formCheckboxTerm = document.querySelector("#form-checkbox-term");
+        let btnSendDataWpp = document.querySelector("#btn-send-data-wpp");
+
+        let formTextError = document.querySelectorAll(".form-text-error");
+
+        formCheckboxTerm.onclick = () => {
+          if (formCheckboxTerm.checked) {
+            formTextError[0].style.display = "none";
+            formTextError[0].innerHTML = "";
+          }
+        };
+
+        btnSendDataWpp.onclick = () => {
+          if (formCheckboxTerm.checked) {
+            if (
+              formSelectStyle.value != "Selecione" &&
+              formSelectColor.value != "Selecione" &&
+              formSelectBody.value != "Selecione" &&
+              formSelectObjective.value != "Selecione" &&
+              formSelectState.value != "Selecione" &&
+              formInputHeight.value != "" &&
+              formInputWidth.value != "" &&
+              formInputCity.value != "" &&
+              formInputName.value != "" &&
+              formInputMessage.value != ""
+            ) {
+              formTextError[0].style.display = "none";
+              formTextError[0].innerHTML = "";
+
+              let formDate = new Date();
+              let formDay = formDate.getDate();
+              let formMonth = formDate.getMonth();
+              let formYear = formDate.getFullYear();
+              let formHours = formDate.getHours();
+              let formMinutes = formDate.getMinutes();
+
+              formMonth = formMonth + 1;
+
+              if (formDay <= 9) {
+                formDay = "0" + formDay;
+              }
+
+              if (formMonth <= 9) {
+                formMonth = "0" + formMonth;
+              }
+
+              if (formHours <= 9) {
+                formHours = "0" + formHours;
+              }
+
+              if (formMinutes <= 9) {
+                formMinutes = "0" + formMinutes;
+              }
+
+              const  generateRandomString = (num) => {
+                const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+                let result1= ' ';
+                const charactersLength = characters.length;
+
+                for ( let i = 0; i < num; i++ ) {
+                  result1 += characters.charAt(Math.floor(Math.random() * charactersLength));
+                }
+
+                return result1;
+              }
+
+              const displayRandomString = () => {
+                let randomStringContainer = document.getElementById('random_string');
+                randomStringContainer.innerHTML =  generateRandomString(8);
+              }
+
+              let formText = `*ORÇAMENTO DE TATUAGEM*\n___________________________________\n\n\`\`\`Dados da solicitação\`\`\`\n...........................................................\n*Site:* www.bodyart.com.br\n*Data:* ${formDay}/${formMonth}/${formYear}\n*Horário:* ${formHours}:${formMinutes}\n*ID:* ${generateRandomString(10)}\n___________________________________\n\n\`\`\`Dados do serviço\`\`\`\n...........................................................\n*Estilo da tatuagem:* ${formSelectStyle.value}\n*Cor da tatuagem:* ${formSelectColor.value}\n*Parte do corpo:* ${formSelectBody.value}\n*Altura da tatuagem:* ${formInputHeight.value}cm\n*Largura da tatuagem:* ${formInputWidth.value}cm\n*Objetivo:* ${formSelectObjective.value}\n___________________________________\n\n\`\`\`Dados do cliente\`\`\`\n...........................................................\n*Estado:* ${formSelectState.value}\n*Cidade:* ${formInputCity.value}\n*Nome:* ${formInputName.value}\n*Mensagem:* _${formInputMessage.value}_`;
+
+              formText = window.encodeURIComponent(formText);
+
+              window.open("https://wa.me/" + formTel + "?text=" + formText, "_blank");
+
+
+              formTextError[0].style.display = "block";
+              formTextError[0].style.color = "#008000";
+              formTextError[0].innerHTML = "Redirecionado para o seu WhatsApp.";
+            }
+
+            else {
+              formTextError[0].style.display = "block";
+              formTextError[0].style.color = "#ff0000";
+              formTextError[0].innerHTML = "<b>AVISO:</b> você precisa preencher todos os campos para enviar.";
+            }
+          }
+
+          else {
+            formTextError[0].style.display = "block";
+            formTextError[0].style.color = "#ff0000";
+            formTextError[0].innerHTML = "<b>AVISO:</b> você precisa confirmar a caixa de seleção acima.";
+          }
+        };
+      };
+    </script>
+  </body>
+</html>
