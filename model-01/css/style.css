@@ -1921,6 +1921,7 @@ fieldset[disabled] a.btn {
 .btn-light {
 	color: #000;
 	margin-top: 50px !important;
+	background: #fff;
 }
 
 @media screen and (max-width: 991px) {
